@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    height: 100vh;
+    background: linear-gradient(180deg, #49e9f1, #75edf3, #b6f5f8, #e9fcfd, #ffffff);
+	height: 100vh;
+	width: 100vw;
+}
+.main{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.heading-main
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+.heading-secondary
+{
+    color: gray;
+    font-weight: 600;
+    padding-top: 10px;
+    max-width: 60%;
+}
+.button
+{
+    background-color: #8E0FE7;
+    border: 0px; 
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin-top: 25px;
+}
+.to{
+    font-weight: 900;
+    color: #16BEE2;
+}
+.twopic{
+    position: absolute;
+    height: 50vh;
+    width: 25vw;
+    left: 65vw;
+    top: 34vh;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.onepic{
+    position: absolute;
+    height: 25vh;
+    width: 20vw;
+    top: 23vh;
+    left: 55vw;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.threepic{
+    position: absolute;
+    height: 27vh;
+    width: 18vw;
+    top: 68vh;
+    left: 75vw;
+    border-radius: 15px;
+    z-index: 2;
+    box-shadow: 2px 3px lightblue;
+}
+
+.button-second{
+    background-color: rgb(244, 146, 247);
+    border-radius: 30px;
+    padding: 15px 25px;
+    margin-top: 25px;
+    margin-left: -400px;
+}
+.twohead{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 500px;
+}
+.tt{
+    font-size: 25px;
+    font-weight: 700;
+}
